@@ -5,6 +5,7 @@ import LoadingBar from './components/LoadingBar';
 import { Notification } from './components/Notification';
 import { Gamepad2 } from 'lucide-react';
 import {StrategySurvey}  from './components/StrategySurvey';
+import Footer from './components/Footer';
 
 interface Feedback {
   type: 'strength' | 'improvement';
@@ -250,6 +251,7 @@ function App() {
           )}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
